@@ -5,8 +5,8 @@ Open-source repositories:
 OpenLane: 
 https://github.com/The-OpenROAD-Project/OpenLane
 
-sky130_sram_1kbyte_1r1w_8x1024_8 generated with OpenRAM:
-https://github.com/VLSIDA/OpenRAM
-
 16-bit 5-stage RISC Processor:
 https://github.com/captaindane/swt16/tree/master
+
+sky130_sram_1kbyte_1r1w_8x1024_8 generated with OpenRAM:
+https://github.com/VLSIDA/OpenRAM
