@@ -1,0 +1,27 @@
+{
+    "DESIGN_NAME": "swt16",
+    "VERILOG_FILES": "dir::src/*.v",
+    "CLOCK_PORT": "clock",
+    "CLOCK_PERIOD": 20.0,
+    "DESIGN_IS_CORE": true,
+    "EXTRA_LEFS": "dir::macro/*.lef",
+    "EXTRA_GDS_FILES": "dir::macro/*.gds",
+    "VERILOG_FILES_BLACKBOX": "dir::macro/*.v",
+    "VDD_NETS": "vccd1",
+    "GND_NETS": "vssd1",
+    "FP_PDN_MACRO_HOOKS": "sram.sram0 vccd1 vssd1 vccd1 vssd1, sram.sram1 vccd1 vssd1 vccd1 vssd1",
+    
+    "FP_SIZING": "absolute",
+    "DIE_AREA": "0 0 700 1000",
+
+    "FP_CORE_UTIL": 30,
+    "MACRO_PLACEMENT_CFG": "dir::macro.cfg",
+
+    "GRT_ADJUSTMENT": 0.3,
+    "PL_WIRELENGTH_COEF": 0.5,
+
+    "SYNTH_MAX_FANOUT": 20,
+    "PL_RESIZER_MAX_SLEW_MARGIN": 40,
+    "PL_RESIZER_MAX_CAP_MARGIN": 40
+
+}
